@@ -4,11 +4,11 @@ requires-python = ">=3.10"
 
 [[package]]
 name = "pyjallib"
-version = "0.1.1"
+version = "0.1.2"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/42/76/0b4fc27316c3be0acb08e992f588451fa987fac3780f65af827c16a3fe47/pyjallib-0.1.1.tar.gz", hash = "sha256:d8fb53c76766db54f22701dcdc90ce0e3d7083898184df391d7fea24eaa12cdd", size = 73151, upload_time = "2025-04-26T12:47:07.723Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9b/02/8061aa6eb791afce120a926f740f334c6048e264a37d18500f82290d11a4/pyjallib-0.1.2.tar.gz", hash = "sha256:664bffd93136c539e7aef075addd90c3957bb3d9889930d83aeaf3aab450654c", size = 71935, upload_time = "2025-04-30T05:56:55.778Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/36/8f/7c607cf57ee208b4250f7c3ea41e8fbae07731ee2b9c7fa517a5f3d15e82/pyjallib-0.1.1-py3-none-any.whl", hash = "sha256:4a3e93275399a999d681467d6083f66456c00a7620e70470f20a8194c39f154b", size = 86478, upload_time = "2025-04-26T12:47:06.558Z" },
+    { url = "https://files.pythonhosted.org/packages/a3/9c/b581af1c2fa54ade901363afbee1c7b0d18616e3debe2292679e36750220/pyjallib-0.1.2-py3-none-any.whl", hash = "sha256:52c53897e74fdccec6e4229a6664e91f37e71b74b3c6b50180ea96da8e0397cc", size = 88061, upload_time = "2025-04-30T05:56:54.151Z" },
 ]
 
 [[package]]
@@ -22,7 +22,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "pyjallib", specifier = ">=0.1.0" },
+    { name = "pyjallib", specifier = ">=0.1.2" },
     { name = "pyside6", specifier = ">=6.9.0" },
 ]
 
