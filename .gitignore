@@ -10,3 +10,7 @@ wheels/
 .venv/
 
 .vscode/
+
+# Claude planning/reports (local only)
+.claude/planning/
+.claude/reports/
