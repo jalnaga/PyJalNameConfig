@@ -3,8 +3,26 @@ name = "pyjalnameconfig"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10.14"
 dependencies = [
-    "pyjallib>=0.1.2",
+    "pyjallib",
     "pyside6>=6.9.0",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "ruff>=0.14.14",
+]
+
+[tool.uv.sources]
+pyjallib = { path = "../PyJalLib", editable = true }
+
+[tool.ruff]
+lint.ignore = ["E402"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+pythonpath = ["src"]
