@@ -126,7 +126,7 @@ dev = [
 
 [[package]]
 name = "pyjallib"
-version = "0.3.6"
+version = "0.3.8"
 source = { editable = "../PyJalLib" }
 dependencies = [
     { name = "p4python" },
